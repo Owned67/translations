@@ -1,0 +1,6 @@
+{
+    "APIerror": {
+        "title": "❌ Wystąpił błąd ❌",
+        "desc": "Kod błędu: `{{error_code}}`\nProszę się skontaktować z Ortovox#9235\n\n**Zgłoś **[**bug**]({{- INVITE_BUGREPORT}})"
+    }
+}

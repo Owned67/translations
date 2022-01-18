@@ -1,0 +1,69 @@
+{
+    "help": {
+        "details": {
+            "name": "pomoc",
+            "description": "Serio? Naprawdę potrzebujesz pomocy przy użyciu polecenia help? Ehhh",
+            "arguments": "None"
+        }
+    },
+    "invcost": {
+        "details": {
+            "description": "Wyświetla całkowitą wartość twojego ekwipunku Rust"
+        },
+        "total": "Total",
+        "title": "Całkowita wartość ekwipunku dla {{name}}",
+        "desc": "Użyj {{command1}} by zmienić walute serwera\nLub użyj {{command2}}",
+        "stat": "$t(invcost.items, {\"count\": {{items}} })\nCałkowity koszt {{total_cost}}\n$t(invcost.hours, {\"count\": {{hours}} })",
+        "items": "{{count}} posiadany przedmiot",
+        "items_plural": "{{count}} posiadanych przedmiotów",
+        "hours": "{{daily_movement}} w ostatniej godzinie",
+        "hours_plural": "{{daily_movement}} w ostatnich {{count}} godzinach",
+        "error": {
+            "private": {
+                "title": "{{name}} ma ukryty ekwipunek",
+                "desc": "Zmień ustawienia prywatności ekwipunku Steam na **publiczny**\n\nUpewnij się, że posiadasz [skiny Rust](https://steamcommunity.com/market/search?appid=252490)"
+            },
+            "outage": {
+                "title": "Mieliśmy problemy z pobraniem Twojego ekwipunku",
+                "desc.likely": "Jest to prawdopodobnie spowodowane chwilową awarią. Wróć później, aby spróbować ponownie",
+                "desc.definitely": "Wynika to z tymczasowej awarii. Wróć później, aby spróbować ponownie"
+            }
+        }
+    },
+    "keybind": {
+        "title": "Przydatne bindy",
+        "desc": "Zamień `x` w jakikolwiek przycisk chcesz",
+        "kill": "Samobójstwo - 60 sekund czasu odnowienia",
+        "run": "Auto bieganie",
+        "farm": "Auto farma",
+        "mute": "Wycisz wszystkie głosy",
+        "auto.f1": "Automatycznie uruchom dziennik walki(combatlog), gdy używasz konsoli",
+        "auto.flashlight": "Włącz latarkę/laser podczas celowania",
+        "perf": "Wykresy dla informacji o PC, takich jak FPS, ping, RAM itp.",
+        "fps": "FPS limiter (-1 bez limitu)",
+        "connect": "Szybsze łączenie się z serwerami",
+        "seed": "Znajdź ziarno serwera",
+        "png": "Pobierz obraz PNG do pobrania mapy serwera",
+        "hitnotify": "Nieprawidłowe zatrzymanie pocisku (rejestracja trafień serwera)",
+        "gibs": "Usuwa odłamki: gdy drzwi najazdowe znikają natychmiast",
+        "thirds": "Podziel stosy na 3",
+        "craft": "Bind, aby stworzyć przedmiot. Znajdź itemID za pomocą polecenia `;item`",
+        "craftdesc": "Wytwórz 3 bandaże"
+    },
+    "newskin": {
+        "title": "Sprawdź najnowsze skórki Rust!",
+        "desc": "Wciśnij [tutaj](https://store.steampowered.com/itemstore/252490/browse/?filter=All) aby je sprawdzić!\nWżyj {{command1}} lub zareaguj 👀 aby zobaczyć je i ich cenę\nUżyj {{command2}} aby otrzymywać powiadomienia o wydaniu nowych skórek\n\n[Kup](https://store.steampowered.com/itemstore/252490/browse/?filter=All) wszystkie {{count}} skinów za cene {{price}}",
+        "auto": {
+            "off": " Nowe wydania skórek nie będą już automatycznie wysyłać nazw skórek, cen i obrazów",
+            "on": " Nowe wydania skórek będą automatycznie wysyłać nazwy skórek, ceny i obrazy\n\nUżyj {{command1}} aby wyłączyć automatyczne wysyłanie skórek"
+        }
+    },
+    "raid": {
+        "cannot.destroy": "Nie możesz zniszczyć tego przedmiotu",
+        "hardside": "twarda",
+        "softside": "miękka",
+        "title": "Niszczenie {{count}} {{title}} z {{destroyType}}",
+        "title_plural": "Niszczenie {{count}} {{title}} Z {{destroyType}}",
+        "description": "🖱️ Najedź na pola, aby zobaczyć ⏱️ zajmujący czas"
+    }
+}
