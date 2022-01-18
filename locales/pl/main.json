@@ -1,0 +1,22 @@
+{
+    "language.change.confirm": "Domyślny język ustawiony na",
+    "command": {
+        "disabled": {
+            "title": "Ta komenda jest tymczasowo niedostępna",
+            "description": "Prosimy o cierpliwość i dołącz do [serwera wsparcia]({{INVITE_OUTAGES}}) w celu uzyskania aktualizacji"
+        },
+        "cooldown": {
+            "title": "Zbyt często używasz tego polecenia, zwolnij",
+            "description": "Poczekaj {{count}} sekund przed ponownym użyciem tego polecenia"
+        }
+    },
+    "powered.by": {
+        "scmm": "Powered by scmm.app",
+        "rustafied": "Czytaj więcej na Rustafied",
+        "rustlabs": "Czytaj więcej na RustLabs"
+    },
+    "loading": {
+        "data": "Poczekaj, aż pobierzemy Twoje dane..."
+    },
+    "quantity": "ilość"
+}
