@@ -12,7 +12,6 @@
         },
         "total": "Total",
         "title": "Valeur totale de l'inventaire pour {{name}}",
-
         "desc": "Utilisez la commande {{command1}} pour changer la devise du serveur\nou utilisez {{command2}}",
         "stat": "$t(invcost.items, {\"count\": {{items}} })\nCoût total {{total_cost}}\n$t(invcost.hours, {\"count\": {{hours}} })",
         "items": "{{count}} objet possédé",
@@ -28,7 +27,6 @@
             "outage": {
                 "title": "Nous avons rencontré des problèmes lors de la récupération de votre inventaire !",
                 "desc.likely": "Cela est probablement dû à une panne temporaire. Veuillez re-essayez ultérieurement...",
-
                 "desc.definitely": "Cela est dû à une panne temporaire. Veuillez re-essayez ultérieurement... "
             }
         }
@@ -54,11 +52,11 @@
         "craftdesc": "Crafter 3 bandages"
     },
     "newskin": {
-        "title": "Découvrez les derniers skins Rust!",
+        "title": "Découvrez les derniers skins Rust! ",
         "desc": "Cliquez [içi](https://store.steampowered.com/itemstore/252490/browse/?filter=All) pour les découvrir!\nUtilisez {{command1}} ou réagissez avec 👀 pour les voirs avec le prix\nUtilisez {{command2}} pour être avertis lorsque des nouveaux skins seront publiés\n\n[Acheter](https://store.steampowered.com/itemstore/252490/browse/?filter=All) les {{count}} nouveaux skins Rust pour un total de {{price}}",
         "auto": {
-            "off": " Les nouveaux skin n'enverront plus automatiquement les noms, les prix et les images des skins ",
-            "on": " Les nouveaux skin enverront automatiquement les noms, les prix et les images des skins\nUtilisez {{command1}} pour désactiver l'envoi automatique des skins"
+            "off": " Les nouveaux skin ne seront plus affichés automatiquement avec les noms, les prix et les images ",
+            "on": " Les nouveaux skin affichés automatiquement avec les noms, les prix et les images\nUtilisez {{command1}} pour désactiver l'envoi automatique des skins"
         }
     },
     "raid": {
@@ -66,7 +64,7 @@
         "hardside": "difficile",
         "softside": "soft",
         "title": "Détruis {{count}} {{title}} avec {{destroyType}}",
-        "title_plural": "Destroying {{count}} {{title}}s avec {{destroyType}}",
+        "title_plural": "Détruis {{count}} {{title}}s avec {{destroyType}}",
         "description": "🖱️ Survolez les caisses pour voir le temps écoulé ⏱️"
     }
 }
